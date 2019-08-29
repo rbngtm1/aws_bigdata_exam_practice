@@ -1,0 +1,4 @@
+- Athena lets users query S3 data with SQL 
+- Athena integrates well with Glue, an ETL Service on AWS 
+- Athena is used to query cloudfront and other AWS related logs like ELB logs and VPC Flow logs 
+- Athena queries can be expensive if not optimized 
