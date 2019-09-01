@@ -3,12 +3,13 @@ accessible and stored in a central S3 bucket. The company segregates the data by
 specific prefixes. Scientists can only access the data from their own business unit. The company needs a
 single sign-on identity and management solution based on Microsoft Active Directory (AD) to manage
 access to the data in Amazon S3.
-            Which method meets these requirements?
-            A) Use AWS IAM Federation functions and specify the associated role based on the users' groups in AD.
-            B) Create bucket policies that only allow access to the authorized prefixes based on the users' group name
-            in Active Directory.
-            C) Deploy the AD Synchronization service to create AWS IAM users and groups based on AD information.
-            D) Use Amazon S3 API integration with AD to impersonate the users on access in a transparent manner.
+```
+Which method meets these requirements?
+A) Use AWS IAM Federation functions and specify the associated role based on the users' groups in AD.
+B) Create bucket policies that only allow access to the authorized prefixes based on the users' group name
+in Active Directory.
+C) Deploy the AD Synchronization service to create AWS IAM users and groups based on AD information.
+D) Use Amazon S3 API integration with AD to impersonate the users on access in a transparent manner.
 2) An administrator has a 500-GB file in Amazon S3. The administrator runs a nightly COPY command into
 a 10-node Amazon Redshift cluster. The administrator wants to prepare the data to optimize performance
 of the COPY command.
@@ -179,3 +180,4 @@ But then key management could be performed on either the on-premises HSM or Clou
 meet the design goal. Option C does not describe a valid feature of KMS and violates the requirement for the
 corporate HSM to manage the keys requirement, even if it were possible. Option D is not possible because you
 cannot put hardware into an AWS Region.
+```
