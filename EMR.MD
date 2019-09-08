@@ -1,0 +1,31 @@
+# EMR 
+
+- EMR Stands for Elastic Map Reduce 
+- EMR service provides various Apps under Hadoop ecosystem for big data processing. 
+  - Hive
+  - 
+  - 
+  - Spark, Pig, Hadoop
+  -  Flink
+  - Ganglia
+  - HBase
+  - HCatalog
+  - Hive
+  - Hue
+  - Jupyter Notebook
+  - Livy
+  - Mahout
+  - MXNet
+  - Oozie
+  - Phoenix
+  - Pig
+  - Presto
+  - Spark
+  - Sqoop
+  - TensorFlow
+  - Tez
+  - Zeppelin
+  - ZooKeeper
+- EMR Integrates with Kinesis for processing Real-time streams 
+  - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-kinesis.html
+
