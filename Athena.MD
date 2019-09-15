@@ -1,0 +1,11 @@
+- What is AWS Athena?  It is a query service that uses standard SQL
+- Athena lets users query S3 data with SQL 
+- Athena integrates well with **AWS glue**, an ETL Service provided by AWS 
+- Athena is used to query **AWS cloudfront** and other AWS related logs like ELB logs and VPC flow logs 
+- Unomptimized Athena queries can be expensive
+- Uses data stored as objects on Amazon S3
+- Has no infrastructure to manage
+- You only pay only for the queries you run
+- Based on Facebook's Presto, an open-source distributed Presto SQL query engine
+- Supports CSV, JSON, Gzip files and columnar formats like Apache Parquet
+- Performance scales automatically based on query profiling
