@@ -3,8 +3,6 @@
 - EMR Stands for Elastic Map Reduce 
 - EMR service provides various Apps under Hadoop ecosystem for big data processing. 
   - Hive
-  - 
-  - 
   - Spark, Pig, Hadoop
   -  Flink
   - Ganglia
