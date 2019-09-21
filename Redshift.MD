@@ -6,3 +6,7 @@
 
 
 
+## Redshift Distribution Style
+- If you need to perform join operations distribute the keys in KEY Distribuiton
+- If you don't need to perform Join operations then EVEN distribution is suitable 
+https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables-distribution.html
