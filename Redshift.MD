@@ -10,3 +10,4 @@
 - If you need to perform join operations distribute the keys in KEY Distribuiton
 - If you don't need to perform Join operations then EVEN distribution is suitable 
 https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables-distribution.html
+![image](https://user-images.githubusercontent.com/22568316/65368397-293e4b00-dc30-11e9-9540-8f38e28e7baf.png)
