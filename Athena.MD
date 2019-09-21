@@ -1,6 +1,8 @@
 - What is AWS Athena?  It is a query service that uses standard SQL
 - Athena lets users query S3 data with SQL 
 - Athena integrates well with **AWS glue**, an ETL Service provided by AWS 
+   - Uses glue data catalog to store encrypted metadata. 
+   - glue data catalog also stores databases and tables. 
 - Athena is used to query **AWS cloudfront** and other AWS related logs like ELB logs and VPC flow logs 
 - Unomptimized Athena queries can be expensive
 - Uses data stored as objects on Amazon S3
