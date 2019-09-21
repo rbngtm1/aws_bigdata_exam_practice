@@ -41,3 +41,4 @@ You can add data to an Amazon Kinesis data stream via PutRecord and PutRecords o
 - Increasing TTL prevents from records being unble to be updated if they go over RecordMaxBufferedTime. 
 - Kinesis allows writing with automatic and configurable retry mechanism. 
 - You can also examine failures usinf future objects retured from addUserRecord method. 
+- Not required to store the jobs in memory or transient storafe. 
