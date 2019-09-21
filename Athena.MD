@@ -8,4 +8,5 @@
 - You only pay only for the queries you run
 - Based on Facebook's Presto, an open-source distributed Presto SQL query engine
 - Supports CSV, JSON, Gzip files and columnar formats like Apache Parquet
+  - does it support snappy
 - Performance scales automatically based on query profiling
