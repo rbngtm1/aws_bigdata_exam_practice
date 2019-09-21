@@ -5,17 +5,21 @@
   - Hive
   - Spark, Pig, Hadoop
   -  Flink
+      - Flink is streaming dataflow engine that you can use to run real-timestream processing on high-throufhput data sources. Flink suppoers event time semantics for out-of-order events. 
   - Ganglia
   - HBase
+      - non-relational distributed database from Hadoop Porject.  Runs on HDFS. 
   - HCatalog
   - Hive
   - Hue
+     - Hadoop User Interface - web based gui that provides interface for EMR and Hadoop.  Provides Hive and Pig editprs to remove need to login to cluster and to run scripts on each application's shell. 
   - Jupyter Notebook
   - Livy
   - Mahout
   - MXNet
   - Oozie
   - Phoenix
+      - Used for OLTP and operational analytics. Allows to use standard SQL queries and provides APIs for JDBC allowing to woek with Apache HBase. 
   - Pig
   - Presto
   - Spark
