@@ -36,4 +36,8 @@ You can add data to an Amazon Kinesis data stream via PutRecord and PutRecords o
   ![image](https://user-images.githubusercontent.com/22568316/64916473-3610f980-d76d-11e9-9b04-b9423327fbc2.png)
 
 
+## Retry Mechanisms and handling failures##
 
+- Increasing TTL prevents from records being unble to be updated if they go over RecordMaxBufferedTime. 
+- Kinesis allows writing with automatic and configurable retry mechanism. 
+- You can also examine failures usinf future objects retured from addUserRecord method. 
