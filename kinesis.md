@@ -46,3 +46,4 @@ You can add data to an Amazon Kinesis data stream via PutRecord and PutRecords o
 ## Shards
 - Each Shard can suport 5 transactions per secons and 1MiB data/second. 
 - can process data in batch
+- Max records that can be returned is 1000 records per second. 
