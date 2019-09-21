@@ -1,0 +1,3 @@
+- Conver media files in S3 to supported formats. 
+- Uses Jobs, pipelines, presets and notifications. 
+- **mediapackage** OTOH delivers videostreams to devices and CDNs. 
