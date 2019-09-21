@@ -1,0 +1,3 @@
+- Supports Key:Value Schema. 
+- Provides two read/write capacity modes. 
+- Replicates data across AWS Regions to optimize read/write performance to support globally distributed workloads. 
