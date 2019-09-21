@@ -42,3 +42,7 @@ You can add data to an Amazon Kinesis data stream via PutRecord and PutRecords o
 - Kinesis allows writing with automatic and configurable retry mechanism. 
 - You can also examine failures usinf future objects retured from addUserRecord method. 
 - Not required to store the jobs in memory or transient storafe. 
+
+## Shards
+- Each Shard can suport 5 transactions per secons and 1MiB data/second. 
+- can process data in batch
