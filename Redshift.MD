@@ -19,3 +19,9 @@ https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables-distributi
  - Split data when loading data into tables, but not a good practixe for design. 
  - query optimizer redistributes rows to compute nodes as needed to perform any joins and aggregrations through optimal distribution techniques. 
  
+
+
+## implementing workload management 
+- You can use workload management (WLM) to define multiple query queues and to route queries to the appropriate queues at runtime.You can configure Amazon Redshift WLM to run with either automatic WLM or manual WLM.
+- Automatic WLM 
+  - With this choice, up to eight queues are used to manage queries, and the Memory and Concurrency on main fields are both set to Auto. You can specify a priority that reflects the business priority of the workload or users that map to each queue. The default priority of queries is set to Normal
